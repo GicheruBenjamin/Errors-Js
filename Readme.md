@@ -6,4 +6,8 @@ Ii allows you to test a block of code for errors(try). If an error occurs, the c
 try block: Wrap suspicious code within the try block. If an error is thrown within this block, execution jumps to the catch block.
 catch block: This block receives an error object (exception) as an argument. You can access error details like type and message within the catch block.
 
+## Throw Error
+You can explicitly signal errors using the throw statement. This allows you to create custom errors with specific messages within your code.
+
+
 
