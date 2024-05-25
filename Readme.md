@@ -9,5 +9,5 @@ catch block: This block receives an error object (exception) as an argument. You
 ## Throw Error
 You can explicitly signal errors using the throw statement. This allows you to create custom errors with specific messages within your code.
 
-
-
+## Finally 
+The finally block, used in conjunction with try...catch, always executes after the try block, regardless of errors. This is useful for cleanup tasks like closing files or releasing resources.
